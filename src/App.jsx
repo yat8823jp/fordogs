@@ -79,7 +79,8 @@ const Form = () => {
 const App =() => {
   return (
     <>
-      <h1 className="mb-12">Fat calculator</h1>
+      <h1 className="mb-8 text-3xl font-bold">糖質計算ツール</h1>
+      <p className="mb-8">ご飯の成分表から糖質を計算します</p>
       <div>
         <div className="flex items-center justify-center mb-2">
           <span>
