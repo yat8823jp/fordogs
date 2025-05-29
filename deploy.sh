@@ -5,7 +5,7 @@ rm -rf docs
 bun run build 
 
 # 個別に必要なファイルをコピー
-cp docs/index.html docs/assets/*
+cp dist/index.html dist/404.html
 
 # コミット & プッシュしてGitHubActionsをトリガー
 git add .
